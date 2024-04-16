@@ -1,0 +1,25 @@
+.Kajak {
+    width:auto;
+    height: auto;
+    border:outset;
+    margin: 80px;
+
+}
+
+.Kajak p{
+    margin: 10px;
+    font-size: 20pt;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+}
+
+.Kajak h1{
+    text-align: center; 
+}
+
+img{
+    margin: 10px;
+}

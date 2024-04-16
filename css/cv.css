@@ -1,0 +1,143 @@
+body {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: light;
+    border-radius: 10px;
+    margin: 0; 
+    padding-bottom: 80px;
+    height: 100%;
+    background-image: linear-gradient(to left, #faa7b8, #fb7b8e, #aab6fb);
+}
+  
+.topnav {
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  background-color: #655967;
+  text-align: center;
+  margin:0;
+}
+
+.topnav a {
+  display: inline-block; 
+    color: white; 
+    border-style: solid;
+    background-color: transparent;
+    border: #4a707a;
+    border-radius: 10px; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14pt;
+}
+  
+  .topnav a:hover{
+    background-image: linear-gradient(to right ,#d3dd18, #f8d90f);
+    color:black;
+  }
+  
+  .container3{
+    display: flex;
+  }
+  
+  .pic {
+    display: flex;
+    justify-content: middle;
+    align-items: center;
+    border-color: #4a707a;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to right bottom, #1f1c2c, #928dab);
+    font-size: 16px;
+    height: 300px;
+    width: 70%;
+    margin: 10px;
+  }
+  
+  .pic img {
+    height: 90%;
+    margin: 15px;
+    margin-left: 40px;
+  }
+
+  .name {
+    text-align: center; 
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    height: auto;
+    flex: 1;
+    padding: 0;
+    margin: 40px;
+    font-size: 24pt;
+}
+
+  .name h1 {
+    font-size: 50pt;
+  }
+  
+  .contact {
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    background: linear-gradient(to left bottom, #1f1c2c, #928dab);
+    border-radius:10px ;
+    width: 30%;
+    margin: 10px;
+    
+  }
+  
+  .contact h2 {
+    font-size: 24pt;
+    font-weight: 600;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .contact p {
+    font-size: 16pt;
+    font-size: 400;
+    color: white;
+    margin-left: 10px;
+
+  }
+
+  .container2{
+    display: flex;
+  }
+  .text{
+  border-radius: 10px;
+  margin: 10px;
+  width: 70%;
+  background: linear-gradient(to right top, #1f1c2c, #928dab);
+  }
+  
+  .text h1{
+    margin: 10px;
+    font-size: 22pt;
+    color:black;
+  }
+
+  .text p{
+    margin: 10px;
+    font-size: 17pt;
+    color: white;
+  }
+
+  .school{
+    border-radius: 10px;
+    margin: 10px;
+    width: 30%;
+    background: linear-gradient(to left top, #1f1c2c, #928dab);
+  }
+
+  .school h1{
+    margin: 10px;
+    font-size: 22pt;
+    color:black;
+  }
+
+  .school p{
+    margin: 10px;
+    font-size: 15pt;
+    color:white;
+  }
