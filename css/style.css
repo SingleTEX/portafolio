@@ -4,14 +4,13 @@ body {
   font-weight: 400;
   margin: 0; 
    height: 100%;
-   background: linear-gradient(to right, #4c5c3f, #4e6668);
 }
 
 .header {
   border-radius: 10px 10px 0px 0px;
   height: auto;
   width: 100%;
-  background: linear-gradient(to right, #346662, #364e5e, #304d5c);
+  background:transparent;
   overflow: hidden;
   color: white;
   font-size: 16px;
@@ -33,7 +32,7 @@ body {
 .topnav {
 
   overflow: hidden;
-  background: linear-gradient(to right, #232526, #414345);
+  background: transparent;
   text-align: center;
   margin: 0;
   height: auto;
@@ -56,16 +55,16 @@ body {
 }
 
 .topnav a:hover{
-  background-image: linear-gradient(to right ,#d3dd18, #f8d90f);
+  background-image: rgba(0,0,0,0.6);
   border-radius: 0 10px 0 10px;
   border-color: #ef8e38;
-  color:black;
+  color:white;
 }
 
 .topnav a:active{
-  background-image: linear-gradient(to right, #333333, #dd1818);
+  background-image: rgba(0,0,0,0.6);
   font-weight: 600;
-  color:black;
+  color:white;
 }
 
 .dropdown {
@@ -92,9 +91,9 @@ body {
 }
 
 .topnav a:hover, .dropdown:hover, .dropbtn:hover {
-  background-image: linear-gradient(to right ,#d3dd18, #f8d90f);
+  background: rgba(0,0,0,0.6) ;
   border-radius: 0 10px 0 10px;
-  color:black;
+  color:white;
 }
 
 .dropdown-content {
@@ -102,27 +101,27 @@ body {
   position:absolute;
   top: 100%; 
   left: 0;
-  background: linear-gradient(to right, #4c5c3f, #4e6668);
+  background: transparent;
   border-radius: 10px;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(24, 15, 15, 0.774);
   z-index: 9999;
 }
 
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
-  background-image: linear-gradient(to right,  #314d5e , #476354, #455961 );
+  background-image:transparent;
   display: block;
-  color: white;
+  
   text-align: left;
   margin: 5px;
 }
 
 .dropdown-content a:hover{
-  background-image: linear-gradient(to right ,#d3dd18, #f8d90f);
-  color: black;
+  background-image: rgba(0,0,0,0.6);
+  color: white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -154,13 +153,13 @@ body {
   color: white;
   font-size: 24pt;
   cursor: pointer;
-  background-image: linear-gradient(to right,  #314d5e , #476354, #455961 );
+  background-image: transparent;
   border-color: #3d7eaa; 
 }
 
 .button:hover{
-  background-image: linear-gradient(to right, #df7f7f, #ffb88c); 
-  color:black;
+  background-image: rgba(0,0,0,0.5); 
+  color:white;
   border-color:#ffe47a; 
 }
 
@@ -172,7 +171,7 @@ body {
   border-radius: 0px 0px 10px 10px;
   height: 80px;
   width: 100%;
-  background: linear-gradient(to right, #346662, #364e5e, #304d5c);
+  background:rgba(19, 18, 18, 0.7);
   color: white;
 }
 

@@ -1,41 +1,4 @@
-body {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 400;
-    font-style: light;
-    border-radius: 10px;
-    margin: 0; 
-    padding-bottom: 80px;
-    height: 100%;
-    background-image: linear-gradient(to left, #faa7b8, #fb7b8e, #aab6fb);
-}
-  
-.topnav {
-  border-radius: 10px 10px 0px 0px;
-  overflow: hidden;
-  background-color: #655967;
-  text-align: center;
-  margin:0;
-}
-
-.topnav a {
-  display: inline-block; 
-    color: white; 
-    border-style: solid;
-    background-color: transparent;
-    border: #4a707a;
-    border-radius: 10px; 
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 14pt;
-}
-  
-  .topnav a:hover{
-    background-image: linear-gradient(to right ,#d3dd18, #f8d90f);
-    color:black;
-  }
-  
-  .container3{
+ .container3{
     display: flex;
   }
   
@@ -46,17 +9,19 @@ body {
     border-color: #4a707a;
     border-radius: 10px;
     color: white;
-    background: linear-gradient(to right bottom, #1f1c2c, #928dab);
+    background: transparent;
     font-size: 16px;
     height: 300px;
     width: 70%;
     margin: 10px;
+    ;
   }
   
   .pic img {
     height: 90%;
     margin: 15px;
     margin-left: 40px;
+    border-radius: 50%
   }
 
   .name {
@@ -79,7 +44,7 @@ body {
     justify-content: center;
     align-content: center;
     text-align: left;
-    background: linear-gradient(to left bottom, #1f1c2c, #928dab);
+    background: transparent;
     border-radius:10px ;
     width: 30%;
     margin: 10px;
@@ -89,7 +54,7 @@ body {
   .contact h2 {
     font-size: 24pt;
     font-weight: 600;
-    color: black;
+    color: rgb(78, 20, 20);
     margin-left: 10px;
   }
   
@@ -108,13 +73,13 @@ body {
   border-radius: 10px;
   margin: 10px;
   width: 70%;
-  background: linear-gradient(to right top, #1f1c2c, #928dab);
+  background: transparent;
   }
   
   .text h1{
     margin: 10px;
     font-size: 22pt;
-    color:black;
+    color:rgb(78, 20, 20);
   }
 
   .text p{
@@ -127,13 +92,13 @@ body {
     border-radius: 10px;
     margin: 10px;
     width: 30%;
-    background: linear-gradient(to left top, #1f1c2c, #928dab);
+    background:transparent;
   }
 
   .school h1{
     margin: 10px;
     font-size: 22pt;
-    color:black;
+    color:rgb(78, 20, 20);
   }
 
   .school p{
